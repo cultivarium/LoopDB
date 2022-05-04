@@ -28,7 +28,8 @@ docker build -t loopdb -f Dockerfile .
 ### Pull
 
 ```
-docker pull ghcr.io/cultivarium/loopdb
+docker pull ghcr.io/cultivarium/loopdb:v1.0.0
+docker tag ghcr.io/cultivarium/loopdb:v1.0.0 loopdb
 ```
 
 ### Run
