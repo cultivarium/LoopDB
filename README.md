@@ -9,13 +9,41 @@ LoopDesigner is a web app for interacting with LoopDB. Currently, the following 
 * Searching for a part by it's name.
 * Automatic assembly protocol generation.
 
-You can try a public version at [loopdesigner.herokuapp.com](http://loopdesigner.herokuapp.com)
-
 # Installation
 
 This section will explain how to install a local LoopDesigner server.
 
-## Gettting Started
+## Docker
+
+### Prerequisites
+
+* [Docker](https://www.docker.com/)
+
+### Build
+
+```
+docker build -t loopdb -f Dockerfile .
+```
+
+### Pull
+
+```
+docker pull ghcr.io/cultivarium/loopdb
+```
+
+### Run
+
+```
+docker run -p 127.0.0.1:8000:8000 loopdb
+```
+
+Stop running container
+```
+docker container list
+docker stop <CONTAINER ID>
+```
+
+## Standard installation
 
 ### Installing LoopDB
 

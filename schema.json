@@ -31,17 +31,17 @@
 
 	],
 	"BaseSeq":[
-		{"name": "L0", "gbFile": "gb/L0.gb" },
+		{"name": "L0", "gbFile": "/LoopDesigner/gb/L0.gb" },
 		
-		{"name": "pOdd-1", "receiver": "AF", "gbFile": "gb/pOdd-1.gb"},
-		{"name": "pOdd-2", "receiver": "AF", "gbFile": "gb/pOdd-2.gb"},
-		{"name": "pOdd-3", "receiver": "AF", "gbFile": "gb/pOdd-3.gb"},
-		{"name": "pOdd-4", "receiver": "AF", "gbFile": "gb/pOdd-4.gb"},
+		{"name": "pOdd-1", "receiver": "AF", "gbFile": "/LoopDesigner/gb/pOdd-1.gb"},
+		{"name": "pOdd-2", "receiver": "AF", "gbFile": "/LoopDesigner/gb/pOdd-2.gb"},
+		{"name": "pOdd-3", "receiver": "AF", "gbFile": "/LoopDesigner/gb/pOdd-3.gb"},
+		{"name": "pOdd-4", "receiver": "AF", "gbFile": "/LoopDesigner/gb/pOdd-4.gb"},
 		
-		{"name": "pEven-1", "receiver": "aw", "gbFile": "gb/pEven-1.gb"},
-		{"name": "pEven-2", "receiver": "aw", "gbFile": "gb/pEven-2.gb"},
-		{"name": "pEven-3", "receiver": "aw", "gbFile": "gb/pEven-3.gb"},
-		{"name": "pEven-4", "receiver": "aw", "gbFile": "gb/pEven-4.gb"}
+		{"name": "pEven-1", "receiver": "aw", "gbFile": "/LoopDesigner/gb/pEven-1.gb"},
+		{"name": "pEven-2", "receiver": "aw", "gbFile": "/LoopDesigner/gb/pEven-2.gb"},
+		{"name": "pEven-3", "receiver": "aw", "gbFile": "/LoopDesigner/gb/pEven-3.gb"},
+		{"name": "pEven-4", "receiver": "aw", "gbFile": "/LoopDesigner/gb/pEven-4.gb"}
 	],
 	"Backbone":[
 		{"name": "pOdd-1", "baseSeq" : "pOdd-1", "adapter" : "ab" },

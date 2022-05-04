@@ -1,3 +1,6 @@
+biopython==1.76
 Flask==0.12.2
 Flask-SocketIO==2.9.4
 loopDB==0.2.3a0
+python-socketio==4.6.1
+python-engineio==3.13.2
